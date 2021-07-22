@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 99203100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hotmailloginpagesteps.Setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Hotmail Login",
+        "description": "",
+        "id": "hotmail-login;hotmail-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3309850400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on \"http://hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://hotmail.com",
+                  "offset": 9
+                }
+              ],
+              "location": "hotmailloginpagesteps.I_am_on(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 742205600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click the Sign In button",
+            "match": {
+              "location": "hotmailloginpagesteps.I_click_the_Sign_In_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145062200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the User Name \"abc@hotmail.com\" on \"i0116\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@hotmail.com",
+                  "offset": 23
+                },
+                {
+                  "val": "i0116",
+                  "offset": 44
+                }
+              ],
+              "location": "hotmailloginpagesteps.I_enter_the_User_Name_on(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3084997000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the button \"idSIButton9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "idSIButton9",
+                  "offset": 20
+                }
+              ],
+              "location": "hotmailloginpagesteps.I_click_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121863200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter the password \"odsjsjdskd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "odsjsjdskd",
+                  "offset": 22
+                }
+              ],
+              "location": "hotmailloginpagesteps.I_enter_the_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312613700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the sign in button \"idSIButton9\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "idSIButton9",
+                  "offset": 28
+                }
+              ],
+              "location": "hotmailloginpagesteps.I_click_the_sign_in_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 728722800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be logged in",
+            "match": {
+              "location": "hotmailloginpagesteps.I_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Hotmail Login",
+    "description": "",
+    "id": "hotmail-login",
+    "keyword": "Feature",
+    "uri": "hotmailloginpage/hotmailloginpage.feature"
+  }
+]
