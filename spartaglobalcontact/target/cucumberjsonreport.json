@@ -1,0 +1,190 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 176512600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "spartaglobalcontactsteps.Setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Sparta Global Contact Us Page",
+        "description": "",
+        "id": "sparta-global-contact-us-page;sparta-global-contact-us-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5535654100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the sparta global contact us page \"https://www.spartaglobal.com/contact/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.spartaglobal.com/contact/",
+                  "offset": 43
+                }
+              ],
+              "location": "spartaglobalcontactsteps.I_am_on_the_sparta_global_contact_us_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 334223400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter my first name \"contactFirstName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contactFirstName",
+                  "offset": 23
+                }
+              ],
+              "location": "spartaglobalcontactsteps.I_enter_my_first_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161989600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter my last name \"contactLastName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contactLastName",
+                  "offset": 22
+                }
+              ],
+              "location": "spartaglobalcontactsteps.I_enter_my_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173158700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter my company name \"contactCompany\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contactCompany",
+                  "offset": 25
+                }
+              ],
+              "location": "spartaglobalcontactsteps.I_enter_my_company_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171468000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my email address \"contactEmail\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contactEmail",
+                  "offset": 26
+                }
+              ],
+              "location": "spartaglobalcontactsteps.I_enter_my_email_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153680700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter my telephone number \"contactTelephone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contactTelephone",
+                  "offset": 29
+                }
+              ],
+              "location": "spartaglobalcontactsteps.I_enter_my_telephone_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 589841700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter my contact message \"contactMessage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contactMessage",
+                  "offset": 28
+                }
+              ],
+              "location": "spartaglobalcontactsteps.I_enter_my_contact_message(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254025500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the submit button \"//*[@id\u003d\u0027contact-form\u0027]/div[2]/button\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//*[@id\u003d\u0027contact-form\u0027]/div[2]/button",
+                  "offset": 27
+                }
+              ],
+              "location": "spartaglobalcontactsteps.I_click_the_submit_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105107100,
+              "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat spartaglobalcontact.spartaglobalcontactsteps.I_should_see_the_thank_you_message_displayed(spartaglobalcontactsteps.java:99)\r\n\tat ✽.Then I should see the thank you message displayed(spartaglobalcontact/spartaglobalcontact.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "I should see the thank you message displayed",
+            "match": {
+              "location": "spartaglobalcontactsteps.I_should_see_the_thank_you_message_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sparta Global Contact Us Page",
+    "description": "",
+    "id": "sparta-global-contact-us-page",
+    "keyword": "Feature",
+    "uri": "spartaglobalcontact/spartaglobalcontact.feature"
+  }
+]
